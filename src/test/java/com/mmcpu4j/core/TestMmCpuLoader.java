@@ -9,7 +9,7 @@ public class TestMmCpuLoader extends TestCase {
 	@Override
 	protected void setUp() throws Exception {
 		//
-		loader = new MmCpuTracker(new EchoHandler(), 2000, 50, 3);
+		loader = new MmCpuTracker(new MmCpuEchoHandler(), 2000, 50, 3);
 		//
 		super.setUp();
 	}
