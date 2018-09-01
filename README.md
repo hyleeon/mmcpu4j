@@ -7,6 +7,8 @@ mmcpu4j, Linux cpu monitor for Java
 * The Timing interval, load threshold, continous overload are configurable (done)
 * Monitoring CPU load of the current process and threads and callbak the handler on event
 * Mapping Java threads to native threads id and monitoring
+* Catch block process
+* Enable stop
 * ...
 
 
